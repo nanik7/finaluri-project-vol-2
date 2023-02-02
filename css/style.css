@@ -537,25 +537,31 @@ footer {
 }
 
 @media (max-width: 480px) {
-    header {
-        max-width: 480px;
-        width: 100%;
+    nav{
+        width: 60%;
     }
 
     .section1 {
         width: 100%;
+        /* height: 866px; */
     }
 
     .box_news {
-        height: 388px;
+        height: 400px;
     }
-
+    .learn_more{
+        margin-top: 5%;
+    }
     .news {
+        width: 100%;
         height: 478px;
         display: flex;
         flex-direction: column;
     }
-
+    .divnews2{
+        display: flex;
+        flex-direction: column;
+    }
     .section2 {
         width: 100%;
         display: flex;
@@ -567,7 +573,12 @@ footer {
         flex-direction: column;
         margin-top: 30px;
     }
-
+    .box2section3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .gamochena {
         display: unset;
     }
@@ -579,12 +590,16 @@ footer {
         align-items: center;
     }
 
-    .gaqroba {
+    .gaqroba_mobile {
         display: none;
     }
-
+    .footerdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .icons {
-        width: 100%;
+        width: 50%;
         justify-content: space-between;
         align-items: center;
     }

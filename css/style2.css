@@ -330,24 +330,49 @@ footer {
     }
 }
 @media(max-width: 480px){
-    header{
-        width: 100%;
+    nav{
+        width: 50%;
     }
     .section1{
         width: 100%;
     }
     .section2{
+        width: 90%;
+        padding-left: 0;
+        margin-bottom: 200px;
+    }
+    .div1section2{
+        width: 80%;
+    }
+    .boxpdiv{
+        width: 100%;
+        flex-direction: column;
+        gap: 10%;
+    }
+    .pdiv1{
+        width: 100%;
+    }
+    .pdiv2{
         width: 100%;
     }
     .section3{
         width: 100%;
-     margin-left: 0;
+     /* margin-left: 0; */
     }
     footer{
         width: 100%;
+        height: 143px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .footerdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        width: 50%;
     }
     .gaqroba{
         display: none;
