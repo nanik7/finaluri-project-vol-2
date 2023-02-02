@@ -107,7 +107,7 @@ li {
 }
 
 .img_text {
-    width: 561px;
+    width: 80%;
     height: 43px;
     font-size: 16px;
     color: #ffffff;
@@ -299,8 +299,10 @@ h4 {
 }
 
 .div1_1section3 {
-    width: 681px;
+    width: 90%;
     height: 76px;
+    display: flex;
+    flex-direction: column;
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -326,6 +328,7 @@ h5 {
 }
 
 .asection3 {
+    display: block;
     font-size: 16px;
     color: #ffffff;
 }
@@ -435,19 +438,36 @@ footer {
         height: 742px;
         flex-direction: column;
         gap: 50%;
+        display: unset;
     }
-
-    .section2 {
-        margin-top: 150px;
+    .box_news{
+        width: 100%;
+        height: 399px;
     }
 
     .news {
         width: 100%;
         height: 343px;
-        margin-left: 0;
+        /* margin-left: 0; */
         display: flex;
     }
 
+    .section2 {
+        width: 90%;
+        margin-top: 150px;
+        gap: 2%;
+    }
+    .cards{
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 284px;
+        height: 350px;
+    }
+    .imgdiv{
+        width: 100%;
+        height: 50%;
+    }
     .divnews2 {
         display: flex;
         justify-content: space-between;
