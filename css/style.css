@@ -273,6 +273,7 @@ h4 {
 }
 
 .box1section3 {
+    width: 75%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -287,7 +288,7 @@ h4 {
 }
 
 .div1section3 {
-    width: 760px;
+    width: 100%;
     background-image: url(../photos/bridge.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -329,12 +330,12 @@ h5 {
 
 .asection3 {
     display: block;
-    font-size: 16px;
+    font-size: 1rem;
     color: #ffffff;
 }
 
 .div2section3 {
-    width: 760px;
+    width: 100%;
     background-image: url(../photos/forest.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -357,13 +358,16 @@ h5 {
     /* margin-left: 40px; */
     /* margin-top: 60px; */
 }
-.figure{
+
+.figure {
     height: 210px;
 }
-.figureimg{
+
+.figureimg {
     width: 100%;
     height: 100%;
 }
+
 /* footer */
 footer {
     width: 100%;
@@ -440,7 +444,8 @@ footer {
         gap: 50%;
         display: unset;
     }
-    .box_news{
+
+    .box_news {
         width: 100%;
         height: 399px;
     }
@@ -450,24 +455,36 @@ footer {
         height: 343px;
         /* margin-left: 0; */
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    /* .divnews2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
 
     .section2 {
         width: 90%;
         margin-top: 150px;
         gap: 2%;
     }
-    .cards{
+
+    .cards {
         justify-content: space-evenly;
     }
-    .card{
+
+    .card {
         width: 284px;
         height: 350px;
     }
-    .imgdiv{
+
+    .imgdiv {
         width: 100%;
         height: 50%;
     }
+
     .divnews2 {
         display: flex;
         justify-content: space-between;
@@ -503,8 +520,19 @@ footer {
     }
 
     .box2section3 {
+        width: 100%;
         display: flex;
+        justify-content: space-evenly;
+        
         align-items: center;
+        flex-direction: row;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5% 10% 5% 10%;
     }
 }
 
