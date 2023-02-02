@@ -1,4 +1,8 @@
-
+.main_container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
 header {
     background-color: #f6f8f9;
     display: flex;
@@ -6,8 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 100%;
-    z-index: 2;
+    width: inherit;
+    /* z-index: 2; */
 }
 
 .logo {
@@ -43,7 +47,9 @@ header {
 }
 
 nav {
-    width: 25%;
+
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 ul {
@@ -54,6 +60,7 @@ ul {
 li {
     font-size: 11px;
     color: #343638;
+    margin-right: 2rem;
 }
 
 .black:hover {
@@ -65,8 +72,8 @@ li {
 .section1 {
     width: 80%;
     margin: 0 auto;
-    z-index: 1;
-    left: 140px;
+    /* z-index: 1; */
+    /* left: 140px; */
     top: 100px;
     display: flex;
     padding-bottom: 36px;
@@ -78,14 +85,18 @@ li {
     height: 500px;
     background-image: url(../photos/desert\ mountains.png);
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .h2section1 {
     width: 210px;
-    position: absolute;
-    z-index: 1;
-    margin-left: 200px;
-    margin-top: 250px;
+    /* position: absolute; */
+    /* z-index: 1; */
+    /* margin-left: 200px; */
+    /* margin-top: 250px; */
     color: #ffffff;
     font-size: 30px;
 }
@@ -128,7 +139,8 @@ li {
 /* section2 */
 .section2{
     width: 80%;
-    margin-left: 140px;
+    /* margin-left: 140px; */
+    margin: 0 auto;
     padding-top: 42px;
     padding-bottom: 41px;
     display: flex;
@@ -170,12 +182,15 @@ li {
 /* section3 */
 .section3{
     width: 80%;
-    margin-left: 140px;
+    /* margin-left: 140px; */
+    margin: 0 auto 200px auto;
     padding-bottom: 44px;
     border-bottom: 2px solid #ebeded;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 .img2{
+    width: 100%;
+    height: 50%;
     margin-bottom: 80px;
 }
 .div1section3{
@@ -248,9 +263,6 @@ footer {
 }
 
 @media(max-width: 768px){
-    header{
-        width: 80%;
-    }
     nav{
         width: 50%;
     }
